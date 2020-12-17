@@ -1,0 +1,180 @@
+<!DOCTYPE html><!--22061106 전윤언-->
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      body{
+        font-family: Arial;
+        padding: 10px;
+        background: #f1f1f1;
+      }
+      .header{
+        padding: 30px;
+        text-align: center;
+        background: white;
+      }
+      .header h1{
+        font-size: 50px;
+      }
+      .topnav{
+        overflow: hidden;
+        background-color: #333;
+      }
+      .topnav a{
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .topnav a:hover{
+        background-color: #ddd;
+        color: black;
+      }
+      .leftcolumn{
+        float: left;
+        width: 75%;
+      }
+      .rightcolumn{
+        float: left;
+        width: 25%;
+        background-color: #f1f1f1;
+        padding-left: 20px;
+      }
+      .fakeimg{
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+      }
+      .card{
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+      }
+      .row:after{
+        content:"";
+        display: table;
+        clear: both;
+      }
+      .footer{
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+      }
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+      li {
+        list-style-type: none;
+        display: inline;
+        margin-left: 42px;
+      }
+    </style>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="header">
+      <h1><p id="p1" onmousedown="mouseDown()" onmouseup="mouseUp()">Yun Eon's portfolio</h1>
+      <p>Yun Eon's Collection of Tasks .</p>
+    </div>
+
+    <div class="topnav">
+      <a herf="#"><a href="index.html">Link</a></a>
+      <a herf="#"><a href="index1.html">Link</a></a>
+      <a herf="#"><a href="index2.html">Link</a></a>
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>콘텐츠프로그래밍 1학기 중간평가</h2>
+          <h5>Content Programming Interim Evaluation for the 1st semester, October 30, 2020</h5>
+          <div class="fakeimg" style="height:300px;">About Basic Design Image
+          <div class="image">
+            <video width='320'height='240'autoplay controls loop>
+              <source src="img/1.mp4" type="video/mp4">
+            </video></div></div>
+                    <p>1학기 중간평가 웹페이지 제작 </p>
+                    <p>Production of Web Design for Final Evaluation in the 1st semester </p>
+          <p>이 영상은 콘텐츠프로그래밍 중간평가 때 제작한 사이트 입니다.
+             주제는 제가 평소 자주 즐겨듣는 음악들을 선정하여 음원사이트와는
+             다른 느낌의 페이지 입니다. 컨셉은 귀엽고 아기자기한으로 폰트와
+             톤앤매너 버튼의 모양 등 전체적인 느낌이 둥글둥글하고 귀여워 보일 수
+             있도록 제작 하였습니다.
+          </p>
+          <p>This video was produced during the interim evaluation of content programming.
+             The theme is to select the music that I usually listen to often and to compare it to music sites.
+             This page has a different feeling. The concept is cute and cute with a font.
+             The overall feeling, such as the shape of the tone and manner buttons, may look round and cute
+             I made it so that I can make it.</p>
+        </div>
+
+        <div class="card">
+          <h2>콘텐츠프로그래밍 1학기 중간평가</h2>
+          <h5>Content Programming Interim Evaluation for the 1st semester, October 30, 2020</h5>
+          <div class="fakeimg" style="height:300px;">About Basic Design Image
+          <div class="image">
+            <video width='320'height='240'autoplay controls loop>
+              <source src="img/1.mp4" type="video/mp4">
+            </video></div></div>
+                    <p>1학기 중간평가 웹페이지 제작 </p>
+                    <p>Production of Web Design for Final Evaluation in the 1st semester </p>
+          <p>이 영상은 콘텐츠프로그래밍 중간평가 때 제작한 사이트 입니다.
+             주제는 제가 평소 자주 즐겨듣는 음악들을 선정하여 음원사이트와는
+             다른 느낌의 페이지 입니다. 컨셉은 귀엽고 아기자기한으로 폰트와
+             톤앤매너 버튼의 모양 등 전체적인 느낌이 둥글둥글하고 귀여워 보일 수
+             있도록 제작 하였습니다.
+          </p>
+          <p>This video was produced during the interim evaluation of content programming.
+             The theme is to select the music that I usually listen to often and to compare it to music sites.
+             This page has a different feeling. The concept is cute and cute with a font.
+             The overall feeling, such as the shape of the tone and manner buttons, may look round and cute
+             I made it so that I can make it.</p>
+        </div>
+      </div>
+
+      <div class="rightcolumn">
+        <div class="card">
+          <h2>About me</h2>
+          <div class="fakeimg" style="height:500px;">Image<img src="img/1004.jpg"></div>
+          <p>Phone number:010-7560-6780</p>
+          <p>Email address:pinkjasmin77@naver.com</p>
+          <p>Instagram Id:01.0218_my</p>
+          <p>Kakaotalk Id:gkkk23</p>
+        </div>
+        <div class="card">
+          <h3>MINE</h3>
+          <p>전윤언의 과제모음 사이트입니다.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h2>Footer</h2>
+    </div>
+    <script>
+    function mouseDown() {
+      document.getElementById("p1").style.color = "red";
+    }
+
+    function mouseUp() {
+      document.getElementById("p1").style.color = "purple";
+    }
+    </script>
+
+  </body>
+</html>
